@@ -9,5 +9,7 @@ $precio3 = $_POST ['precio3'];
 echo "<h2>Información recibida de los productos</h2>";
 $numeros = array($precio1, $precio2, $precio3);
 $suma_total = array_sum($numeros);
+$descuento_porcentaje = 0.16;
+$monto_descuento = $suma_total * $descuento_porcentaje;
 echo "El total de la suma es" .$suma_total;
 ?>
