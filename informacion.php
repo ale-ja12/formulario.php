@@ -11,5 +11,6 @@ $numeros = array($precio1, $precio2, $precio3);
 $suma_total = array_sum($numeros);
 $descuento_porcentaje = 0.16;
 $monto_descuento = $suma_total * $descuento_porcentaje;
-echo "el precio total es: " .$monto_descuento;
+$precio_final = $suma_total - $monto_descuento;
+echo "el precio total es: " .$precio_final;
 ?>
